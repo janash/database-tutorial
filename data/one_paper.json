@@ -1,0 +1,248 @@
+{
+    "totalCount": 7286,
+    "itemHits": [
+        {
+            "item": {
+                "id": "66cba705a4e53c48769eb2a8",
+                "doi": "10.26434/chemrxiv-2024-hjzcr",
+                "vor": null,
+                "title": "Modeling the ionization efficiency of small molecules in positive electrospray ionization using molecular dynamics simulations",
+                "abstract": "    Technological advancements in liquid chromatography (LC) electrospray ionization (ESI) high resolution mass spectrometry (HRMS) have made it an increasingly popular analytical technique in non-targeted analysis (NTA) of environmental and biological samples. One critical limitation of current methods in NTA is the lack of available analytical standards for many of the compounds detected in biological and environmental samples. Computational approaches can provide estimates of concentrations by modeling the ionization efficiency of a compound expressed as the relative response factor (RRF). In this paper, we explore the application of molecular dynamics (MD) in the development of a predictive model for RRF.  We obtained measurements of RRF for 48 compounds with LC - quadrupole time-of-flight (QTOF) MS and calculated their RRF by dividing the observed peak areas by their concentrations. We used the CGenFF force field to generate the topologies and GROMACS to conduct the (MD) simulations (t = 1 ns). We calculated the Lennard-Jones and Coulomb interactions between the analytes and all other molecules in the ESI droplet, which were then used to construct a multilinear regression model for predicting RRF.  The best performing model showed a coefficient of determination (R2) of 0.82 and a mean absolute error (MAE) of 0.13 log units. This performance is comparable to other predictive models including machine learning models. While there is a need for further evaluation of diverse chemical structures, our approach showed great promise in predictions of RRF. ",
+                "contentType": {
+                    "id": "5ce663395846762193c9c430",
+                    "name": "Working Paper"
+                },
+                "categories": [
+                    {
+                        "id": "605c72ef153207001f6470ce",
+                        "name": "Theoretical and Computational Chemistry",
+                        "description": "Research on Theoretical and Computational Chemistry"
+                    },
+                    {
+                        "id": "605c72ef153207001f6470d5",
+                        "name": "Analytical Chemistry",
+                        "description": "Research on Analytical Chemistry"
+                    },
+                    {
+                        "id": "605c72ef153207001f6470da",
+                        "name": "Earth, Space, and Environmental Chemistry",
+                        "description": "Research on Earth, Space, and Environmental Chemistry"
+                    },
+                    {
+                        "id": "60adf37803f321001cb104fa",
+                        "name": "Analytical Chemistry - General",
+                        "description": "Research on Analytical Chemistry - General"
+                    },
+                    {
+                        "id": "60adf37803f321001cb10501",
+                        "name": "Mass Spectrometry",
+                        "description": "Research on Mass Spectrometry"
+                    },
+                    {
+                        "id": "60adf37803f321001cb10530",
+                        "name": "Computational Chemistry and Modeling",
+                        "description": "Research on Computational Chemistry and Modeling"
+                    }
+                ],
+                "subject": {
+                    "id": "5e68cb1bd1f19d49ce3ac739",
+                    "name": "Chemistry",
+                    "description": "Discover early research outputs such as working papers, posters and presentations in Chemistry."
+                },
+                "event": null,
+                "status": "PUBLISHED",
+                "statusDate": "2024-08-26T12:39:13.255Z",
+                "funders": [
+                    {
+                        "funderId": "10.13039/100000002",
+                        "name": "National Institutes of Health",
+                        "grantNumber": "R00ES032892",
+                        "url": null,
+                        "title": null
+                    },
+                    {
+                        "funderId": "10.13039/100000002",
+                        "name": "National Institutes of Health",
+                        "grantNumber": "K99ES032892",
+                        "url": null,
+                        "title": null
+                    }
+                ],
+                "authors": [
+                    {
+                        "orcid": "0000-0002-3402-7565",
+                        "title": "Dr",
+                        "firstName": "Dimitri",
+                        "lastName": "Abrahamsson",
+                        "institutions": [
+                            {
+                                "name": "New York University",
+                                "country": "United States",
+                                "rorId": "https://ror.org/0190ak572"
+                            }
+                        ]
+                    },
+                    {
+                        "orcid": null,
+                        "title": "Ms",
+                        "firstName": "Lelouda-Athanasia",
+                        "lastName": "Koronaiou",
+                        "institutions": [
+                            {
+                                "name": "Aristotle University of Thessaloniki",
+                                "country": "Greece",
+                                "rorId": "https://ror.org/02j61yw88"
+                            }
+                        ]
+                    },
+                    {
+                        "orcid": "0000-0001-7957-5859",
+                        "title": "Dr",
+                        "firstName": "Trevor",
+                        "lastName": "Johnson",
+                        "institutions": [
+                            {
+                                "name": "New York University",
+                                "country": "United States",
+                                "rorId": "https://ror.org/0190ak572"
+                            }
+                        ]
+                    },
+                    {
+                        "orcid": null,
+                        "title": "Dr",
+                        "firstName": "Dimitra",
+                        "lastName": "Lambropoulou",
+                        "institutions": [
+                            {
+                                "name": "Aristotle University of Thessaloniki",
+                                "country": "Greece",
+                                "rorId": "https://ror.org/02j61yw88"
+                            }
+                        ]
+                    }
+                ],
+                "metrics": [
+                    {
+                        "description": "Abstract Views",
+                        "value": 0
+                    },
+                    {
+                        "description": "Citations",
+                        "value": 0
+                    },
+                    {
+                        "description": "Content Downloads",
+                        "value": 0
+                    }
+                ],
+                "version": "1",
+                "versionRefs": [
+                    {
+                        "version": "1",
+                        "itemId": "66cba705a4e53c48769eb2a8",
+                        "legacyId": null
+                    }
+                ],
+                "submittedDate": "2024-08-25T22:03:47.695Z",
+                "publishedDate": "2024-08-26T12:39:13.255Z",
+                "approvedDate": "2024-08-26T12:38:56.406Z",
+                "keywords": [
+                    "electrospray ionization",
+                    "predictive modeling",
+                    "relative response factor",
+                    "molecular dynamics simulations"
+                ],
+                "hasCompetingInterests": false,
+                "competingInterestsDeclaration": null,
+                "gainedEthicsApproval": "NOT_RELEVANT",
+                "suppItems": [
+                    {
+                        "id": "66cba956a4e53c48769ec3fc",
+                        "title": "Supporting Information",
+                        "description": "Supporting information includes supplemental text, figures and tables",
+                        "asset": {
+                            "id": "66cba9814a5bfc29348823a1",
+                            "mimeType": "application/pdf",
+                            "fileName": "Supporting Information v3.pdf",
+                            "fileSizeBytes": 2589214,
+                            "smallThumbnail": {
+                                "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba956a4e53c48769ec3fc/smallThumb/supporting-information.jpg"
+                            },
+                            "mediumThumbnail": {
+                                "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba956a4e53c48769ec3fc/mediumThumb/supporting-information.jpg"
+                            },
+                            "largeThumbnail": {
+                                "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba956a4e53c48769ec3fc/largeThumb/supporting-information.jpg"
+                            },
+                            "original": {
+                                "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba956a4e53c48769ec3fc/original/supporting-information.pdf"
+                            }
+                        }
+                    },
+                    {
+                        "id": "66cba9acf3f4b052901b17f3",
+                        "title": "Supplemental Spreadsheet",
+                        "description": "Underlying data for the calculations made in the paper",
+                        "asset": {
+                            "id": "66cba9b44a5bfc2934882fbc",
+                            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                            "fileName": "Supplemental Spreadsheet v3.xlsx",
+                            "fileSizeBytes": 257326,
+                            "smallThumbnail": {
+                                "url": null
+                            },
+                            "mediumThumbnail": {
+                                "url": null
+                            },
+                            "largeThumbnail": {
+                                "url": null
+                            },
+                            "original": {
+                                "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba9acf3f4b052901b17f3/original/supplemental-spreadsheet.xlsx"
+                            }
+                        }
+                    }
+                ],
+                "asset": {
+                    "id": "66cba8bd4a5bfc293487f6db",
+                    "mimeType": "application/pdf",
+                    "fileName": "Manuscript v5 - clean version.pdf",
+                    "fileSizeBytes": 2226911,
+                    "smallThumbnail": {
+                        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba705a4e53c48769eb2a8/smallThumb/modeling-the-ionization-efficiency-of-small-molecules-in-positive-electrospray-ionization-using-molecular-dynamics-simulations.jpg"
+                    },
+                    "mediumThumbnail": {
+                        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba705a4e53c48769eb2a8/mediumThumb/modeling-the-ionization-efficiency-of-small-molecules-in-positive-electrospray-ionization-using-molecular-dynamics-simulations.jpg"
+                    },
+                    "largeThumbnail": {
+                        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba705a4e53c48769eb2a8/largeThumb/modeling-the-ionization-efficiency-of-small-molecules-in-positive-electrospray-ionization-using-molecular-dynamics-simulations.jpg"
+                    },
+                    "original": {
+                        "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/66cba705a4e53c48769eb2a8/original/modeling-the-ionization-efficiency-of-small-molecules-in-positive-electrospray-ionization-using-molecular-dynamics-simulations.pdf"
+                    }
+                },
+                "license": {
+                    "id": "5cc9d9bf7d4e0000ac04ef25",
+                    "name": "CC BY NC ND 4.0",
+                    "description": "This license will allow Site users to copy and redistribute the Content in any medium or format. However, the Content may not be used for commercial purposes and if the user remixes, transforms or builds upon the Content they may not redistribute the modified material. There is a requirement to attribute the Author upon reuse of the Content.",
+                    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+                },
+                "webLinks": [
+                    {
+                        "title": "GitHub repository",
+                        "description": "Underlying code and datasets used in the paper",
+                        "url": "https://github.com/dimitriabrahamsson/electro-spray"
+                    }
+                ],
+                "origin": "CHEMRXIV",
+                "termsAcceptance": true,
+                "versionNote": "",
+                "latestComments": [],
+                "commentsCount": 0,
+                "isLatestVersion": true,
+                "legacyId": null
+            }
+        }
+    ]
+}
